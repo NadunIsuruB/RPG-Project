@@ -299,7 +299,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -662,43 +662,59 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Unity/RPG Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/Unity/RPG Project/RPG-Project/RPG Project - Brackeys/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6691230E-731E-B099-B162-C93146BAA99D}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
+      <Project>{9C54F0D2-0718-F4BE-1AA9-F4CF0C79EF25}</Project>
+      <Name>NavMeshComponentsExamplesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{925693D5-9DC5-2F15-90CB-7D12BDCB3F9B}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{66B96DF9-24D5-B9B3-9EF0-5F72BE61D22B}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamples.csproj">
+      <Project>{0C311407-2B61-DE39-BF1E-C01CC3816307}</Project>
+      <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
